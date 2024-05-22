@@ -1,0 +1,66 @@
+body {
+  margin:0;
+  background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/200630133939-build-3-1.jpg?q=w_4032,h_3024,x_0,y_0,c_fill");
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1b47c0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+li a:hover:not(.active) {
+  background-color: #112f81;
+}
+
+.active {
+  background-color: #82158b;
+}
+h2{
+  margin-top: 60px;
+}
+
+.comp_img{
+  width: 25%;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #112f81;
+  border-width: 5px;
+}
+
+article{
+  border-style: double;
+  border-width: 10px;
+  border-radius: 15px;
+  border-color: #82158b;
+  width: 50%;
+  background-color: #1b47c0;
+}
+
+section h2{
+  background-color: blue;
+  text-align: center;
+  border-color: #82158b;
+  border-style: groove;
+  width: 15%;
+}

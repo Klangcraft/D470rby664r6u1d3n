@@ -1,0 +1,90 @@
+<html>
+    <meta charset ="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/lycklyck.png" type="image/x-icon"/>
+    <title>D470rby664r6u1d3n</title>
+
+    <head>
+        <body>
+            <ul class="navbar">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="hardware.html">Hårdvareguide</a></li>
+                <li><a class="active" href="compatibility.html">Kompatibilitet</a></li>
+                <li><a href="build_guide.html">Bygguide</a></li>
+                <li><a href="about.html">Om</a></li>
+          </ul>        
+        </body>
+    </head>
+    <body>
+
+        <main>
+            <section>
+                <h2>Datordelars kompatiblitet</h2>
+                <article>
+                    <h3>Kompatiblitet mellan CPU och Moderkort</h3>
+                    <p>Kompatibiliteten mellan en CPU (Central Processing Unit) och ett moderkort beror på flera faktorer:</p>
+                    <li>Sockeltyp: Processorn måste passa i moderkortets CPU-sockel. Olika processorer använder olika socklar, till exempel LGA1151, AM4, eller LGA1700. Du måste säkerställa att processorn och moderkortet har samma sockeltyp.</li>
+                    <br>
+                    <li>Chipset: Moderkortets chipset måste stödja den specifika CPU-modellen. Chipsetet bestämmer vilka funktioner och anslutningar som är tillgängliga, och olika chipsets har stöd för olika processorserier och funktioner.</li>
+                    <br>
+                    <li>BIOS/UEFI: Moderkortets BIOS eller UEFI-version måste stödja den specifika CPU-modellen. Ibland krävs en uppdatering av BIOS/UEFI för att en nyare CPU ska fungera.</li>
+                    <br>
+                    <li>Strömkrav: Moderkortet måste kunna leverera tillräckligt med ström till processorn. Vissa högpresterande CPU:er har högre strömkrav som kanske inte alla moderkort kan hantera.</li>
+                    <br>
+                    <li>Minnesstöd: Både moderkortet och CPU:n måste stödja samma typ av RAM-minne, såsom DDR4 eller DDR5, och de måste stödja samma hastighet och kapacitet för att fungera optimalt.</li>
+                    <br>
+                    <p>För att säkerställa kompatibilitet bör du alltid kontrollera tillverkarens specifikationer och kompatibilitetslistor för både moderkortet och processorn innan du köper eller installerar dem.</p>
+                </article>
+                <article>
+                    <h3>Kompatibilitet mellan GPU och Moderkort</h3>
+                    <p>Kompatibiliteten mellan en GPU (Graphics Processing Unit) och ett moderkort beror på flera faktorer:</p>
+                    <li>PCIe Slot: De flesta moderna GPU:er ansluts via en PCIe (Peripheral Component Interconnect Express) x16-slot. Du måste säkerställa att ditt moderkort har en sådan slot och att den är version 3.0 eller 4.0, beroende på vad din GPU kräver. Nyare GPU:er kan fungera med äldre PCIe-versioner, men med något lägre prestanda.</li>
+                    <br>
+                    <li>Fysiskt Utrymme: GPU:er kan vara ganska stora, så det är viktigt att se till att det finns tillräckligt med utrymme i ditt datorchassi för att rymma GPU:n. Kontrollera längd, bredd, och höjd på GPU:n mot ditt chassi och moderkorts layout.</li>
+                    <br>
+                    <li>Strömförsörjning: GPU:er kräver ström från nätaggregatet (PSU). Kontrollera att ditt PSU har tillräcklig kapacitet (watt) och rätt antal strömkablar (6-pin, 8-pin, etc.) som behövs för att driva GPU:n.</li>
+                    <br>
+                    <li>BIOS/UEFI-kompatibilitet: Ibland kan det krävas en uppdatering av moderkortets BIOS/UEFI för att en nyare GPU ska fungera korrekt, speciellt om moderkortet är äldre.</li>
+                    <br>
+                    <li>Multigrafikstöd: Om du planerar att köra flera GPU:er i SLI (NVIDIA) eller CrossFire (AMD), måste moderkortet stödja dessa teknologier. Detta innebär ofta fler än en PCIe x16-slot med rätt konfiguration och chipsetstöd.</li>
+                    <br>
+                    <p>För att säkerställa kompatibilitet mellan GPU och moderkort, kontrollera alltid specifikationerna och eventuella kompatibilitetslistor från tillverkarna av både GPU och moderkort.</p>
+                </article>
+                <article>
+                    <h3>kompatibilitet mellan RAM och Moderkort</h3>
+                    <p>Kompatibiliteten mellan RAM (Random Access Memory) och moderkort är viktig för att säkerställa att datorn fungerar korrekt och att RAM-modulerna utnyttjas till fullo. Här är några faktorer som påverkar kompatibiliteten:</p>
+                    <li>Typ av RAM: Moderkort och CPU stödjer olika generationer och typer av RAM, såsom DDR3, DDR4 eller DDR5. Det är viktigt att RAM-modulerna och moderkortet är kompatibla med samma RAM-standard.</li>
+                    <br>
+                    <li>RAM-hastighet: Moderkortet har en maximal hastighet för RAM-minnet som det kan hantera. För att få bästa prestanda bör RAM-modulernas hastighet matcha eller vara kompatibla med moderkortets hastighetsgränser.</li>
+                    <br>
+                    <li>Kapacitet: Moderkortet har en maximal kapacitet för RAM-minne som det kan hantera. Det är viktigt att RAM-modulerna inte överskrider denna kapacitet för att undvika kompatibilitetsproblem.</li>
+                    <br>
+                    <li>Antal och Konfiguration: Moderkort har ett begränsat antal RAM-platser och stöder olika konfigurationer av RAM-moduler (enkelkanal, dubbelkanal, trippelkanal osv.). Se till att RAM-modulerna passar fysiskt och är installerade enligt moderkortets specifikationer.</li>
+                    <br>
+                    <li>Latenser och Timing: Vissa moderkort och RAM-moduler stöder olika latenser och timinginställningar. Det är bäst att använda RAM-moduler som är optimerade för moderkortets specifika inställningar för att undvika prestanda- eller stabilitetsproblem.</li>
+                    <br>
+                    <p>För att säkerställa kompatibilitet, kontrollera moderkortets handbok eller tillverkarens webbplats för listor över rekommenderade eller testade RAM-moduler. På så sätt kan du vara säker på att RAM-minnet du väljer är kompatibelt med ditt moderkort.</p>
+                </article>
+                <article>
+                    <h3>Kompatibilitet mellan Lagringsenheter och Moderkort</h3>
+                    <p>Kompatibiliteten mellan lagringsenheter och moderkort är avgörande för att säkerställa att datorn kan läsa och skriva data till lagringsenheterna korrekt. Här är några viktiga aspekter att beakta:</p>
+                    <li>Gränssnitt: Lagringsenheter använder olika gränssnitt för anslutning till moderkortet, såsom SATA (Serial ATA), NVMe (Non-Volatile Memory Express) för SSD-enheter, eller PCIe för vissa högpresterande SSD-enheter. Se till att moderkortet har de nödvändiga anslutningarna för de lagringsenheter du vill använda.</li>
+                    <br>
+                    <li>Fysisk formfaktor: Lagringsenheter finns i olika fysiska storlekar och formfaktorer, som 2.5-tums och 3.5-tums enheter för traditionella hårddiskar, M.2 för SSD-enheter, och PCIe-kort för vissa specifika SSD-enheter. Kontrollera att moderkortet har kompatibla anslutningar och monteringsplatser för de lagringsenheter du väljer.</li>
+                    <br>
+                    <li>Kapacitet och hastighet: Moderkortet bör stödja lagringsenheters kapacitet och hastighet. Till exempel, om du använder en snabb NVMe SSD, bör moderkortet ha stöd för NVMe och tillräcklig bandbredd för att utnyttja dess prestanda.</li>
+                    <br>
+                    <li>RAID och AHCI-stöd: Om du planerar att använda RAID (Redundant Array of Independent Disks) eller AHCI (Advanced Host Controller Interface) för att hantera lagringsenheter, måste moderkortet stödja dessa funktioner. Se till att moderkortet har nödvändiga BIOS/UEFI-inställningar och drivrutiner för RAID eller AHCI.</li>
+                    <br>
+                    <li>Drivrutiner och BIOS/UEFI-uppdateringar: Ibland kan det krävas drivrutiner eller uppdateringar av moderkortets BIOS/UEFI för att korrekt läsa och hantera vissa lagringsenheter, särskilt nya modeller eller teknologier.</li>
+                    <br>
+                    <p>Genom att vara medveten om dessa aspekter och kontrollera moderkortets specifikationer och dokumentation kan du säkerställa kompatibilitet mellan lagringsenheter och moderkort för en smidig och pålitlig datalagring och åtkomst.</p>
+                </article>
+                <article>
+                    <h3>Mjukvara för felsökning:</h3>
+                    <a href="https://pcpartpicker.com/" target="_blank">PCPartPicker.com</a>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
